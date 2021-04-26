@@ -1,0 +1,2 @@
+print("Ömer Geri Döndü")
+

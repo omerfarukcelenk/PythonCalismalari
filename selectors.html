@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header {
+            font-size: 45px;
+            color : red
+        }
+
+        .course h2 {
+            color:blue
+        }
+
+        .course.angular{
+            background-color: red;
+            color:rgba(red, green, blue, alpha)
+        }
+        #username {
+            border: 1px solid red;
+        }
+
+        input[type="text"] {
+            padding: 20px;
+        }
+
+        input[type="password"] {
+            padding: 10px;
+        }
+        #submit {
+            color:red
+        }
+    </style>
+</head>
+<body>
+    
+        <div id="container">
+            <h1 id="header">kurslar</h1>
+            <hr>
+            <div class="course Python">
+                <h2>Python kursu</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, quibusdam.</p>
+            </div>
+            <div class="course angular">
+                <h2>Angular kursu</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, quibusdam.</p>
+            </div>
+            <div class="course Javascript">
+                <h2>Javascript kursu</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, quibusdam.</p>
+            </div>
+
+            <div>
+                <form>
+                    Username : <input type="text" name="username" id="username"><br>
+                    password : <input type="text" name="password" id="password"><br>
+                    <input type="submit" value="Login" id="submit">
+                </form>
+            </div>
+        </div>
+
+</body>
+</html>
